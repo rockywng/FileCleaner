@@ -1,0 +1,6 @@
+make.exe -f C:\Projects\cleaner\Makefile --dry-run --keep-going --print-directory
+make.exe: Entering directory `c:/Projects/cleaner'
+g++ -std=c++14 -Wall -MMD -Wno-unused main.o indents.o newline.o includeguard.o filename.o readwrite.o clean.o -o cleaner
+ 
+make.exe: Leaving directory `c:/Projects/cleaner'
+ 
