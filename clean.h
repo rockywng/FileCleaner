@@ -12,6 +12,8 @@
 #include "newline.h"
 #include "readwrite.h"
 
+// Cleans code of provided file
+// Returns a tuple with values corresponding to different cleaning metrics
 std::tuple<int, int, int, int, int> clean(std::string filename);
 
 #endif
